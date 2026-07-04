@@ -12,6 +12,19 @@ In the business world, minimizing false positives ensures that expensive custome
 
 > 📈 **Model Performance:** **ROC-AUC = 0.91323 (91.323%)**
 
+## 📂 Dataset
+
+The dataset used in this project comes from the Kaggle competition:
+
+**Predict Customer Churn — Playground Series - Season 6, Episode 3**
+
+The original dataset contains over **590,000 customer records** and is publicly available on Kaggle.
+
+Due to GitHub repository size considerations and Kaggle's dataset hosting, the dataset is **not included** in this repository.
+
+You can download the dataset from the competition page and place the files in the project root before running the notebook.
+
+
 ## 🎯 Objectives
 
 - Perform comprehensive Exploratory Data Analysis (EDA) on a large-scale dataset.
@@ -58,10 +71,9 @@ Models were evaluated using **Precision-Recall curves** instead of standard accu
 
 ```text
 telecom-churn-prediction/
-├── train (1).csv       # Training dataset with 590,000+ historical rows and churn labels
-├── test.csv            # Holdout test dataset used to evaluate final model deployment
 ├── churn.ipynb         # Complete end-to-end Jupyter Notebook (EDA, Preprocessing, Modeling)
-└── README.md           # Project documentation and workflow map
+├── README.md           # Project documentation
+└── requirements.txt    # Project dependencies (optional)
 ```
 
 ## 🚀 How to Run
@@ -78,7 +90,7 @@ cd telecom-churn-prediction
 Make sure you have the core machine learning libraries installed:
 
 ```bash
-pip install pandas numpy scikit-learn lightgbm xgboost catboost matplotlib seaborn notebook
+pip install pandas numpy scikit-learn lightgbm xgboost matplotlib seaborn notebook
 ```
 
 ### 3. Open the Notebook
