@@ -61,6 +61,7 @@ telecom-churn-prediction/
 ├── test.csv            # Holdout test dataset used to evaluate final model deployment
 ├── churn.ipynb         # Complete end-to-end Jupyter Notebook (EDA, Preprocessing, Modeling)
 └── README.md           # Project documentation and workflow map
+```
 
 ## 🚀 How to Run
 
@@ -105,4 +106,3 @@ This project provided hands-on experience with advanced data science concepts:
 Middle school student (8th grade) passionate about Artificial Intelligence, Machine Learning, and Data Science.
 
 **GitHub:** https://github.com/buildwitharyaman
-GitHub: github.com/yourusername
