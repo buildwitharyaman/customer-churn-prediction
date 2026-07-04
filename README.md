@@ -10,6 +10,8 @@ With a massive dataset of over **590,000 records**, this project focuses on robu
 
 In the business world, minimizing false positives ensures that expensive customer retention offers are spent only on users who are truly at risk of leaving.
 
+> 📈 **Model Performance:** **ROC-AUC = 0.91323 (91.323%)**
+
 ## 🎯 Objectives
 
 - Perform comprehensive Exploratory Data Analysis (EDA) on a large-scale dataset.
@@ -38,7 +40,6 @@ Multiple state-of-the-art classification frameworks were trained side-by-side wi
 
 - **LightGBM:** Leveraged for fast, leaf-wise tree growth on large datasets.
 - **XGBoost:** Utilized for its advanced $L_1$ and $L_2$ regularization to prevent overfitting.
-- **CatBoost:** Implemented to cross-examine categorical structures safely.
 
 ### 4. Evaluation & Precision Tuning
 
